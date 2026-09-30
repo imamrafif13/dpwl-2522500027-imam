@@ -5,7 +5,7 @@
     <title><?= $title; ?></title>
 </head>
 <body>
-    <h1>Data Profil Pemancing</h1>
+    <h1>Data Profil Pembaca</h1>
     <ul>
         <li><strong>ID:</strong> <?= $id; ?></li>
         <li><strong>Nama:</strong> <?= $nama; ?></li>
