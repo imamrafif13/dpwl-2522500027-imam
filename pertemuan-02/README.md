@@ -15,12 +15,12 @@ Memahami fondasi arsitektur PHP MVC kustom tanpa *framework*, serta mengimplemen
 pertemuan-02/
 ├── application/
 │   ├── config/          # Berkas pengaturan (routes.php, config.php)
-│   ├── controllers/     # Alur logika (Home.php, Pemancing.php)
+│   ├── controllers/     # Alur logika (Home.php, Perpus.php)
 │   ├── helpers/         # Fungsi pembantu URL (url_helper.php)
 │   └── views/           # Tampilan antarmuka (home, pemancing)
 ├── assets/
 │   └── css/             # Berkas gaya tampilan (app.css)
-├── dokumentasi/         # Tangkapan layar bukti uji (.jpg)
+├── dokumentasi/         # Tangkapan layar bukti uji (.png)
 ├── system/
 │   └── core/            # Inti kerangka kerja (Controller.php, Router.php)
 ├── index.php            # Front Controller (pintu masuk utama)
