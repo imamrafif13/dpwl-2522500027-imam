@@ -17,7 +17,7 @@ pertemuan-02/
 │   ├── config/          # Berkas pengaturan (routes.php, config.php)
 │   ├── controllers/     # Alur logika (Home.php, Perpus.php)
 │   ├── helpers/         # Fungsi pembantu URL (url_helper.php)
-│   └── views/           # Tampilan antarmuka (home, pemancing)
+│   └── views/           # Tampilan antarmuka (home, perpus)
 ├── assets/
 │   └── css/             # Berkas gaya tampilan (app.css)
 ├── dokumentasi/         # Tangkapan layar bukti uji (.png)
