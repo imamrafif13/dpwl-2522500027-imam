@@ -38,10 +38,10 @@ Berikut adalah tabel pemetaan alur permintaan (*request*) dari URL ke Controller
 | `home/index` | Home | index | - | home/index.php |
 | `home/info/mvc` | Home | info | mvc | home/info.php |
 | `info/routing` | Home | info | routing | home/info.php |
-| `pemancing/1` | Pemancing | index | 1 | pemancing/index.php |
+| `perpus/1` | Perpus | index | 1 | pemancing/index.php |
 
-* **Penjelasan Route Modifikasi (`pemancing/1`):**  
-  Ketika URL `pemancing/1` diakses, *Router* mengarahkan permintaan ke *Controller* `Pemancing` dan mengeksekusi *method* `index()`. Nilai `1` ditangkap sebagai parameter ID pemancing untuk menampilkan data spesifik pemancing pada *View* `pemancing/index.php`.
+* **Penjelasan Route Modifikasi (`perpus/1`):**  
+  Ketika URL `perpus/1` diakses, *Router* mengarahkan permintaan ke *Controller* `Perpus` dan mengeksekusi *method* `index()`. Nilai `1` ditangkap sebagai parameter ID pemancing untuk menampilkan data spesifik pemancing pada *View* `perpus/index.php`.
   5. Base URL dan Helperbase_url(): Membentuk alur URL statis menuju direktori aset.Contoh: <link rel="stylesheet" href="<?= base_url('assets/css/app.css'); ?>">site_url(): Membentuk URL rute internal aplikasi untuk navigasi.Contoh: <a href="<?= site_url('info/routing'); ?>">Info Routing</a>
   6. Alur Request-ResponseAlur Aktual P2:Browser $\rightarrow$ index.php $\rightarrow$ Router $\rightarrow$ Controller $\rightarrow$ View $\rightarrow$ Response.Posisi Model (MVC Utuh):Browser $\rightarrow$ index.php $\rightarrow$ Router $\rightarrow$ Controller $\rightarrow$ Model $\rightarrow$ Basis Data $\rightarrow$ Model $\rightarrow$ Controller $\rightarrow$ View $\rightarrow$ Response.Catatan: Komponen Model belum digunakan pada P2 karena pemrosesan basis data baru dipelajari di P3.
   7. Hasil Pengujian dan DebuggingSkenario Valid: Mengakses rute /, info/routing, dan pemancing/1 berhasil menampilkan data yang sesuai.Skenario Tidak Valid: Akses ke rute sembarang (misal home/xyz) menghasilkan respon error 404 Not Found.Proses Debugging:Gejala: Perubahan data profil pemancing tidak terbarui di browser.Penyebab: Berkas di editor VS Code belum disimpan (unsaved).Perbaikan: Menekan Ctrl + S untuk menyimpan berkas.Hasil Uji Ulang: Tampilan profil pemancing berhasil diperbarui.
